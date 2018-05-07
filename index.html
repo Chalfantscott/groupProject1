@@ -1,52 +1,93 @@
 <!doctype HTML>
 <html>
     <head>
-        <title>FOMO APP</title>
+        <title>What am I hungry for?</title>
         <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="main.css">
         <script src="search.js"></script>
-        <link href="main.css"></link>
         <script src="main.js"></script>
     </head>
     <body>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">FOMO</a>
-                      
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        </ul>
-                            <form class="form-inline my-2 my-lg-0">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success my-2 my-sm-0 search" type="submit">Search</button>
-                          </form>
-                </div>
-            </nav>
-            <div class="row">
-                    <div class="col-sm">
-                      One of three columns, yo.
+            <div class="pos-f-t">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                      <div class="bg-dark p-4">
+                        <h4 class="text-white">Collapsed content</h4>
+                        <span class="text-muted">Toggleable via the navbar brand.</span>
+                      </div>
                     </div>
-                    <div class="col-sm">
-                      One of three columns
-                    </div>
-                    <div class="col-sm">
-                      One of three columns
-                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </nav>
                   </div>
-            <div class="app"></div>
-        </div>
 
+        <div class="container">
+            <div class="icon">
+                <img src="images/restaurant.png" />
+            </div>
+
+                <div class="firstRow">
+                        <div class="row">
+                            <div class="col-sm id=howTo">
+                                Are you hungry, but unsure of what for? We can help with that.<br> Just follow these three easy steps:
+                            </div>
+                        </div>
+                </div>
+
+            <div class="secondRow">
+                <div class="row">
+                    <div class="col-sm">
+                        Generate new images of food to help guide your tastebuds.
+                    </div>
+                    <div class="col-sm">
+                        Once you've come to a conclusion, scroll down to the EatStreet API to search for restaurants near you.
+                    </div>
+                    <div class="col-sm">
+                        It's just two steps really.
+                    </div>
+                </div>
+            </div>
+            
+            
+
+        </div>
+        
+
+
+
+        <button class="search">Generate new food images</button>
+        <!--Footer-->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+        <!--Footer Links-->
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+    
+                <!--First column-->
+                <div class="col-md-12">
+                    <h5 class="text-uppercase"><div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></h5>
+                </div>
+                <!--/.First column-->
+    
+               
+            </div>
+        </div>
+        <!--/.Footer Links-->
+    
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright:
+            <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
+        </div>
+        <!--/.Copyright-->
+    
+    </footer>
+    <!--/.Footer-->
+        
     </body>
 </html>
