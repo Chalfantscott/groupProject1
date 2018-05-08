@@ -8,33 +8,31 @@
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="photosSaved.html">
         <script src="search.js"></script>
         <script src="main.js"></script>
     </head>
     <body>
             <div class="pos-f-t">
-                    <div class="collapse" id="navbarToggleExternalContent">
-                      <div class="bg-dark p-4">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
                         <h4 class="text-white">Collapsed content</h4>
-                        <span class="text-muted">Toggleable via the navbar brand.</span>
-                      </div>
+                            <span class="text-muted">Toggleable via the navbar brand.</span>
                     </div>
-                    <nav class="navbar navbar-dark bg-dark">
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                    </nav>
-                  </div>
+                </div>
+
+            </div>
 
         <div class="container">
+                <div><a class="btn btn-secondary" href="photosSaved.html" role="button">View Your Favorite Photos</a></div>
             <div class="icon">
-                <img src="images/restaurant.png" />
+                <img src="images/cutlery.png" />
             </div>
 
                 <div class="firstRow">
                         <div class="row">
                             <div class="col-sm id=howTo">
-                                Are you hungry, but unsure of what for? We can help with that.<br> Just follow these three easy steps:
+                                <h4>Unsure about what to eat?<br> Just follow these three easy steps:</h4>
                             </div>
                         </div>
                 </div>
@@ -59,8 +57,23 @@
         
 
 
-
-        <button class="search">Generate new food images</button>
+        <div class="thirdRow">
+                <div class="row">
+                    <div class="col-sm">
+                        <form id="search-form">
+                            <div class="input-group input-group-lg">
+                                <input class="form-control search-bar" placeholder="Search for a restaurant...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary btn-lg" type="submit">GO!</button>
+                                    </span>
+                            </div>
+                            <div class=" m-4 text-center">
+                                <button class="btn btn-dark btn-lg" type="submit">I'm still hungry</button>                        
+                            </div>         
+                        </form>
+                    </div>
+                </div>
+        </div>
         <!--Footer-->
 <footer class="page-footer font-small blue pt-4 mt-4">
 
