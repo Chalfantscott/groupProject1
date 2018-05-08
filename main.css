@@ -21,14 +21,15 @@ img {
 .col-sm {
     text-align: center;
 }
-    
+.favorite {
+    text-align: right;
 
 }
 body {
     background-color: white;
 }
 .thirdRow { 
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom:50px;
     margin-right: 100px;
     margin-left: 100px;
