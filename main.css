@@ -35,8 +35,11 @@ body {
     margin-left: 100px;
 }
 .btn {
-    background-color: black;
+    background-color: rgb(88, 86, 86);
     color: white;
     font-weight: bold;
+}
+.photos {
+    height: 100px;
 }
 
