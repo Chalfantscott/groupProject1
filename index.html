@@ -1,7 +1,7 @@
 <!doctype HTML>
 <html>
     <head>
-        <title>What am I hungry for?</title>
+        <title>FoodMood</title>
         <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -14,54 +14,62 @@
     </head>
     <body>
         <div class="container">
-            <div class="favorite"><a class="btn btn-secondary" href="photosSaved.html" role="button">View Your Favorite Restaurants</a></div>
+            <div class="favorite"><a class="btn btn-secondary" href="photosSaved.html" role="button">Login</a></div>
             <div class="icon">
-                <img src="images/cutlery.png" />
+                <img src="images/cutlery.png" class="logo" />
             </div>
 
                 <div class="firstRow">
                         <div class="row">
-                            <div class="col-sm id=howTo">
-                                <h4>Unsure about what to eat?</h4>
+                            <div class="col-sm">
+                                <h1>FOODMOOD</h1>
+                                <h6>A VISUAL GUIDE TO YOUR NEXT MEAL</h6>
                             </div>
                         </div>
                 </div>
-        </div>
-        <div class="thirdRow">
-                <div class="row">
-                    <div class="col-sm">
-                        <form id="search-form">
-                            <div class="input-group input-group-lg">
-                                <input class="form-control search-bar" placeholder="Search for a restaurant...">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-secondary btn-lg" type="submit">GO!</button>
-                                    </span>
+            </div>
+
+                <div class="secondRow">
+                        <div class="row">
+                            <div class="col-sm">
+                                <h4>UNSURE ABOUT WHAT TO EAT? SIMPLY GENERATE NEW IMAGES OF FOOD THAT SUIT YOUR MOOD AND SEARCH FOR A RESTAURANT NEAR YOU!</h4>
+                                <p>&#9661;</p>
                             </div>
+                            
+                        </div>
+                        
+                </div>
 
-                            <div class="photos"></div>
+        
+            <div class="thirdRow">
+                    <div class="row">
+                        <div class="col-sm">
+                            <form id="search-form">
+                                <div class="input-group input-group-lg">
+                                    <input class="form-control search-bar" placeholder="Search for your city...">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-secondary btn-lg" type="submit">GO!</button>
+                                        </span>
+                                </div>
+                                <div class="m-4 text-center">
+                                        <button class="btn btn-dark btn-lg stillHungry" type="submit">I'm still hungry</button>                        
+                                </div>    
 
-                            <div class=" m-4 text-center">
-                                <button class="btn btn-dark btn-lg" type="submit">I'm still hungry</button>                        
-                            </div>         
-                        </form>
+                                <div class="photos"></div>
+                                <div class="desiredRestaurants"></div>   
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        <footer class="page-footer font-small blue pt-4 mt-4 footer">
+            <div class="text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-12 freePik">
+                        <h5 class="text-uppercase"><div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></h5>
+                        
                     </div>
                 </div>
-        </div>
-        <!--Footer-->
-<footer class="page-footer font-small blue pt-4 mt-4">
-        <div class="container-fluid text-center text-md-left">
-            <div class="row">
-                <div class="col-md-12">
-                    <h5 class="text-uppercase"><div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></h5>
-                </div>
             </div>
-        </div>
-        <!--Copyright-->
-        <div class="footer-copyright py-3 text-center">
-            © 2018 Copyright:
-            <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
-        </div>
-        <!--/.Copyright-->
-    </footer>
+        </footer>
     </body>
 </html>

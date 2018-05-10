@@ -3,6 +3,25 @@
     text-align: center;
     margin-bottom: 20px;
 }
+.secondRow {
+    background-color: rgb(64, 64, 255);
+    color: #fff;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: solid;
+    border-color: black;
+    border-bottom: solid;
+    border-color: black;
+}
+p {
+    margin-top: 100px;
+}
+h4 {
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 40px;
+    font-weight: bolder;
+}
 .text-uppercase {
     font-size: 10px;
     text-align: center;
@@ -12,7 +31,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-img {
+.logo {
     border: solid;
     border-color: black;
     border-radius: 20%;
@@ -39,7 +58,17 @@ body {
     color: white;
     font-weight: bold;
 }
-.photos {
-    height: 100px;
+.unsplashPhoto {
+    margin: 20px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
 }
-
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:60px;
+    background-color: rgb(59, 59, 59);
+}
