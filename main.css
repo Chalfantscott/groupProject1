@@ -12,7 +12,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-img {
+.logo {
     border: solid;
     border-color: black;
     border-radius: 20%;
@@ -41,5 +41,8 @@ body {
 }
 .photos {
     height: 100px;
+}
+.unsplashPhoto {
+    margin: 20px;
 }
 
